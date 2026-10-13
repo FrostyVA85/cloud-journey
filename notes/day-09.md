@@ -21,3 +21,8 @@
 ## What I saw
 - What the server printed when my browser asked for a page: GET commands
 - What the browser showed after I stopped the server: 404 error code - File not found
+
+## Three Distances
+- Ping to 192.168.0.1: Under 1 ms
+- Ping to 8.8.8.8: 15 ms
+- Ping to dynamodb.us-east-1.amazonaws.com: 254 ms
