@@ -1,2 +1,4 @@
 # Folders and files Git should leave alone
 practice/
+# Secrets never go into a repository
+.env
