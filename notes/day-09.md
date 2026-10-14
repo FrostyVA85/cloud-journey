@@ -12,7 +12,7 @@
 - A network is two or more devices joined together so that they can pass data to one another
 - A local network is a set of devices in one place that are joined to one another
 - A router is a device that passes data between your network to the outside world
-- A packet is a smaller piece of data or data that is converted when it is sent over the network
+- A packet is a smaller piece of data or data that is cut into smaller pieces when it is sent over the network. Every piece carries the address it is going to and the address it came from
 - The internet is a network between networks, i.e. a collective group of networks that can interact with each other and joined together with routers
 - A client is a program that sends requests
 - A server is a program that waits for requests and answers them
@@ -21,6 +21,7 @@
 ## What I saw
 - What the server printed when my browser asked for a page: GET commands
 - What the browser showed after I stopped the server: 404 error code - File not found
+- With 404 a server answered and said it has no such file. With "cannot be reached", no server answered at all
 
 ## Three Distances
 - Ping to 192.168.0.1: Under 1 ms
